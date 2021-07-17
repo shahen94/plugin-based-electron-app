@@ -1,0 +1,23 @@
+{
+  "name": "plugin-based-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "client": "electron client/main.js --inspect=5858",
+    "server": "nodemon server/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.1.7"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "download": "^8.0.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
+  }
+}
